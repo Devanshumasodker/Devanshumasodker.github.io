@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+    color: white;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(200, 213, 222);
+    overflow: hidden;
+}
+
+h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.profile{
+    width: 110px;
+    height: 110px;
+    background: url(myprofile.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.image{
+    width: 280px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.links{
+    width: 280px;
+    height: 52px;
+    background-color: rgb(37, 34, 34);
+    margin-top: .8rem;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+.links i{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
